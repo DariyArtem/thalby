@@ -1,0 +1,346 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="css/libs.min.css"/>
+  <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.min.css"/>
+  <script src="js/libs.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="body__content">
+  <div class="header">
+    <div class="container">
+      <div class="header__nav">
+        <div class="header__navList">
+          <div class="header__sidebarcontainer">
+            <div id="mySidebar" class="header__sidebar">
+              <div class="sidebar__icons">
+                <a href="#"><img src="img/searchIcon.svg" alt="Logo"></a>
+                <a href="#"><img src="img/logo.svg"></a>
+                <button type="button" class="header__closebtn" onclick="closeNav()">&times;</button>
+              </div>
+              <div class="header__sidebarrefs">
+                <div class="sidebar__refs">
+                  <a class="header__sidebarref" href="#">Shop</a>
+                  <a class="header__sidebarref" href="#">Collections</a>
+                  <a class="header__sidebarref" href="#">Try a Free Guide</a>
+                  <a class="header__sidebarref" href="#">Stories</a>
+                  <a class="header__sidebarref" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49">
+                      <path fill="#cc6" d="M49 25a24 24 0 11-49 0 24 24 0 0149 0z"></path>
+                    </svg>
+                  </a>
+                  <a class="header__sidebarref" href="#">About</a>
+                  <a class="header__sidebarref" href="#">Write for Us</a>
+                  <a class="header__sidebarref" href="#">Help</a>
+                  <a class="header__sidebarref" href="#"><img src="img/instagramIcon.svg"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="main" class="header__sidebarbtn">
+            <button id="openbtn" class="header__openbtn" onclick="openNav()">&#9776;</button>
+          </div>
+          <ul class="header__list">
+            <li class="header__item">Shop</li>
+            <li class="header__item">Collections</li>
+            <li class="header__item">Try a Free Guide</li>
+            <li class="header__item">Stories</li>
+          </ul>
+        </div>
+        <div class="header__logo">
+          <a href=""><img src="img/logo.svg" alt="Logo"></a>
+        </div>
+        <div class="header__icons">
+          <nav>
+            <ul class="header__list">
+              <li class="header__item"><a href=""><img src="img/instagramIcon.svg" alt="Logo"></a></li>
+              <li class="header__item"><a href=""><img src="img/searchIcon.svg" alt="Logo"></a></li>
+              <li class="header__item header__lock"><a href=""><img src="img/lockIcon.svg" alt="Logo"></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="announcement">
+    <div class="container">
+      <div class="announcement__content">
+        <div class="announcement__text">
+          <div class="announcement__title">
+            <p>Fall deeper in love with <br>humanity.</p>
+          </div>
+          <div class="announcement__subtitle">
+            <p>Get to know the world through our concise, informative and inspiring guides.</p>
+          </div>
+          <div class="">
+            <a href="#">
+              <img src="img/button-shop_now.svg" alt="Shop Now">
+            </a>
+          </div>
+        </div>
+        <div class="announcement__img">
+          <img src="img/image1.svg" alt="Image 1">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="featuredCollection">
+    <div class="container">
+      <div class="featuredCollection__text">
+        <div class="featuredCollection__title">
+          <p>Our guides explain countries and cultures.</p>
+        </div>
+        <div class="featuredCollection__description">
+          <p>Are you curious about the world around you?
+            Our guides are for smart global citizens, world
+            travelers and engaged residents who want to gain
+            a deeper understanding of the cultures and societies
+            they care about.</p>
+        </div>
+        <div class="featuredCollection__subtitle">
+          <p>Available as ebooks here and on Amazon.</p>
+        </div>
+        <p class="featuredCollection__title-h1">Our best sellers</p>
+      </div>
+      <div class="bestsellers">
+        <div class="bestseller">
+          <img src="img/bestseller1.svg" alt="">
+          <p class="bestsellers__title">Thalby Guide to French Culture and Heritage</p>
+          <p class="bestsellers__price">USD 6.99</p>
+          <p class="bestsellers__cart">
+            <a href="#">Add to Cart</a>
+          </p>
+        </div>
+        <div class="bestseller">
+          <img src="img/bestseller2.svg" alt="">
+          <p class="bestsellers__title">Thalby Guide to French People and Society</p>
+          <p class="bestsellers__price">USD 6.99</p>
+          <p class="bestsellers__cart">
+            <a href="#">Add to Cart</a>
+          </p>
+        </div>
+        <div class="bestseller">
+          <img src="img/bestseller3.svg" alt="">
+          <p class="bestsellers__title">Thalby Guide to German Culture and Heritage</p>
+          <p class="bestsellers__price">USD 6.99</p>
+          <p class="bestsellers__cart">
+            <a href="#">Add to Cart</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cart">
+    <div class="container">
+      <div class="cart__inner">
+        <img class="cart__img" src="img/cart1.png" alt="">
+        <div class="cart__body">
+          <p class="cart__title">People and Society</p>
+          <p class="cart__description">Our guides to society deliver all the
+            social insight you need, helping you understand how people live,
+            love and play today and why communities are the way they are.</p>
+          <a class="cart__subtitle">Shop Society Guides</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cart cart2">
+    <div class="container">
+      <div class="cart__inner">
+        <div class="cart__body">
+          <p class="cart__title">People and Society</p>
+          <p class="cart__description">Our guides to society deliver all the
+            social insight you need, helping you understand how people live,
+            love and play today and why communities are the way they are.</p>
+          <a class="cart__subtitle">Shop Society Guides</a>
+        </div>
+        <img class="cart__img" src="img/cart2.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="cart cart3">
+    <div class="container">
+      <div class="cart__inner">
+        <img class="cart__img" src="img/cart3.png" alt="">
+        <div class="cart__body">
+          <p class="cart__title">People and Society</p>
+          <p class="cart__description">Our guides to society deliver all the
+            social insight you need, helping you understand how people live,
+            love and play today and why communities are the way they are.</p>
+          <a class="cart__subtitle">Shop Society Guides</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="uniqueFeatures">
+    <div class="container">
+      <div class="uniqueFeatures__title">
+        <p>Some of the features that make Thalby guides unique</p>
+      </div>
+      <div class="uniqueFeatures__icons">
+        <div class="uniqueFeatures__icon">
+          <img class="uniqueFeatures__img" src="img/featureIcon1.png" alt="Icon">
+          <p class="uniqueFeatures__text">Written by<br>locals</p>
+        </div>
+        <div class="uniqueFeatures__icon">
+          <img src="img/featureIcon2.png" alt="Icon">
+          <p class="uniqueFeatures__text">Packed with<br>insight</p>
+        </div>
+        <div class="uniqueFeatures__icon">
+          <img src="img/featureIcon3.png" alt="Icon">
+          <p class="uniqueFeatures__text">Interviews with<br>diverse voices</p>
+        </div>
+        <div class="uniqueFeatures__icon">
+          <img src="img/featureIcon4.png" alt="Icon">
+          <p class="uniqueFeatures__text">Key facts and<br>etiquette tips</p>
+        </div>
+        <div class="uniqueFeatures__icon">
+          <img src="img/featureIcon5.png" alt="Icon">
+          <p class="uniqueFeatures__text">A concise<br>1-hour read</p>
+        </div>
+        <div class="uniqueFeatures__icon">
+          <img src="img/featureIcon6.png" alt="Icon">
+          <p class="uniqueFeatures__text">Instant<br>digital access</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="voices">
+    <div class="container">
+      <div class="voices__title">
+        Each Thalby guide includes interviews with<br>a range of fascinating voices, such as
+      </div>
+      <div class="voices__portraits">
+        <div class="voices__portrait">
+          <img src="img/portrait1.png" alt="">
+          <div class="voices__text">
+            <div class="voices__quote">
+              <p>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</p>
+            </div>
+            <div class="voices__author">
+              <p>Camille Muller,<br>Landscape Designer, France</p>
+            </div>
+            <div class="voices__action">
+              <a href="#">Discover</a>
+            </div>
+          </div>
+        </div>
+        <div class="voices__portrait">
+          <img src="img/portrait2.png" alt="">
+          <div class="voices__text">
+            <div class="voices__quote">
+              <p>"Magic is not magic in the sense that I can just wish for anything."</p>
+            </div>
+            <div class="voices__author">
+              <p>Sonia Kowalewski,<br> Witch, Germany</p>
+            </div>
+            <div class="voices__action">
+              <a href="#">Discover</a>
+            </div>
+          </div>
+        </div>
+        <div class="voices__portrait">
+          <img src="img/portrait3.png" alt="">
+          <div class="voices__text">
+            <div class="voices__quote">
+              <p>"I was eight years old when I entered my first competition. I won it."</p>
+            </div>
+            <div class="voices__author">
+              <p>Lilly Stoephasius,<br>Skateboarder, Germany</p>
+            </div>
+            <div class="voices__action">
+              <a href="#">Discover</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="subscribe">
+    <div class="container">
+      <div class="subscribe__content">
+        <div class="subscribe__title">
+          Keep in touch
+        </div>
+        <div class="subscribe__message">Get our travel advice, global views and travel freebies in your inbox</div>
+        <form action="" METHOD="post">
+          <div class="subscribe__form">
+            <div class="subscribe__firstname">
+              <input class="subscribe__names" type="text" placeholder="First Name">
+            </div>
+            <div class="subscribe__lastname">
+              <input class="subscribe__names" type="text" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="subscribe__email">
+            <input class="subscribe__emailInput" type="text" placeholder="Email">
+          </div>
+          <div class="subscribe__button">
+            <button type="submit" class="subscribe__btn">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__icons">
+            <div class="footer__logo">
+              <a href="#">
+                <img src="img/footer/logo/logo.png">
+              </a>
+            </div>
+            <div class="footer__socialmedia">
+              <div class="footer__icon">
+                <a href="#">
+                  <img src="img/footer/facebook.png" alt="">
+                </a>
+              </div>
+              <div class="footer__icon">
+                <a href="#">
+                  <img src="img/footer/instagram.png" alt="">
+                </a>
+              </div>
+              <div class="footer__icon">
+                <a href="#">
+                  <img src="img/footer/twitter.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__links">
+            <div class="footer__about">
+              <p>ABOUT</p>
+              <ul>
+                <li class="footer__item"><a href="#">About Us</a></li>
+                <li class="footer__item"><a href="#">Privacy Policy</a></li>
+                <li class="footer__item"><a href="#">Terms and Conditions</a></li>
+                <li class="footer__item"><a href="#">Write for Us</a></li>
+              </ul>
+            </div>
+            <div class="footer__contact">
+              <p>CONTACTS</p>
+              <ul>
+                <li class="footer__item"><a href="#">Email hi@thalby.com</a></li>
+                <li class="footer__item"><a href="#">Help</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>Thalby LLC © 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+node_modules/
+.idea/
+dist/
+app/css/libs/notuse
+app/css/libs.min.css
+app/css/libs/bootstrap.min.css
+app/css/libs/magnific-popup.min.css
+app/css/libs/animate.min.css
+app/css/main.min.css
+app/js/libs.min.js

@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" width="20" height="20">
+	<title>Новый проект</title>
+	<defs>
+		<image  width="22" height="22" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWAQMAAAD+ev54AAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAMSURBVHicY2CgDQAAAFgAAQN2hZMAAAAASUVORK5CYII="/>
+		<image width="20" height="20" id="img2" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE4LjI3MyAxMC4wODhDMTguMjczIDEyLjI2MiAxNy40MDk0IDE0LjM0NjkgMTUuODcyMiAxNS44ODQyQzE0LjMzNDkgMTcuNDIxNCAxMi4yNSAxOC4yODUgMTAuMDc2IDE4LjI4NUM3LjkwMjA1IDE4LjI4NSA1LjgxNzExIDE3LjQyMTQgNC4yNzk4NyAxNS44ODQyQzIuNzQyNjQgMTQuMzQ2OSAxLjg3OTAzIDEyLjI2MiAxLjg3OTAzIDEwLjA4OEMxLjg3OTAzIDcuOTE0MDIgMi43NDI2NCA1LjgyOTA4IDQuMjc5ODcgNC4yOTE4NEM1LjgxNzExIDIuNzU0NjEgNy45MDIwNSAxLjg5MSAxMC4wNzYgMS44OTFDMTIuMjUgMS44OTEgMTQuMzM0OSAyLjc1NDYxIDE1Ljg3MjIgNC4yOTE4NEMxNy40MDk0IDUuODI5MDggMTguMjczIDcuOTE0MDIgMTguMjczIDEwLjA4OFoiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjIwIi8+Cjwvc3ZnPgo="/>
+		<image width="7" height="7" id="img3" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSI3IiB2aWV3Qm94PSIwIDAgNyA3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMC44NzMwNDcgMC44ODQwMDNMNS45NjUwNSA1Ljk3NiIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMjAiLz4KPC9zdmc+Cg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+	<use id="Vector-1" href="#img2" transform="matrix(1,0,0,1,0,0)"/>
+	<use id="Vector" href="#img3" transform="matrix(1,0,0,1,15,15)"/>
+</svg>

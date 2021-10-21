@@ -1,0 +1,324 @@
+@import "reset"
+@import "_fonts"
+@import "variables"
+
+a
+  text-decoration: none
+  color: #0b0b0b
+  &:hover
+    text-decoration: none
+.container
+  max-width: 1064px
+  font-family: 'Roobert', serif
+  font-style: normal
+  font-size: 16px
+  font-weight: normal
+  color: #000000
+.header
+  z-index: 1
+  padding: 16px 0 15px 0
+  align-content: center
+  align-items: center
+  position: -webkit-sticky
+  position: sticky
+  top: 0
+  background: #FFFFFF
+  &__sidebarrefs
+    display: flex
+    justify-content: center
+    text-align: center
+  &__sidebarref
+    margin: 32px 0 0 0px
+  &__burger
+    display: none
+  &__nav
+    display: flex
+    flex-wrap: wrap
+  &__navList
+    font-weight: bold
+    display: flex
+    flex-wrap: wrap
+    flex: 1
+    justify-content: flex-start
+    ul
+      display: flex
+      flex-wrap: wrap
+    li
+      margin-right: 14px
+      margin-left: 14px
+  &__logo
+    display: flex
+    flex-wrap: wrap
+  &__icons
+    display: flex
+    flex-wrap: wrap
+    flex: 1
+    justify-content: flex-end
+    ul
+      display: flex
+      flex-wrap: wrap
+    li
+      margin-right: 14px
+      margin-left: 14px
+  &__lock
+    display: block
+  &__sidebarbtn
+    display: none
+  &__sidebarcontainer
+    max-width: 370px
+  &__sidebar
+    background: #FFFFFF
+    height: 100% /* 100% Полный рост */
+    width: 0 /* 0 ширина - измените это с помощью JavaScript */
+    position: fixed /* Оставаться на месте */
+    z-index: 1 /* Оставайтесь на вершине */
+    top: 0
+    left: 0
+    overflow-x: hidden /* Отключить горизонтальную прокрутку */
+    padding-top: 60px /* Поместите содержимое 60px сверху */
+    transition: 0.5s /* 0.5 секунд эффект перехода для скольжения в боковой панели */
+    a
+      text-decoration: none
+      font-size: 14px
+      display: block
+      transition: 0.3s
+  &__closebtn
+    font-size: 36px
+    border: none
+    background: transparent
+  &__openbtn
+    font-size: 21px
+    cursor: pointer
+    color: #0b0b0b
+    background: transparent
+    border: none
+    /* Стиль содержимого страницы - используйте это, если вы хотите переместить содержимое страницы вправо при открытии боковой навигации */
+  #main
+    transition: margin-left .5s /* Если вы хотите эффект перехода */
+.sidebar
+  &__icons
+    align-items: center
+    display: flex
+    justify-content: space-between
+  &__refs
+    margin-top: 20px
+.announcement
+  background: #F0EFEB
+  &__content
+    display: flex
+  &__text
+    max-width: 544px
+    padding-top: 90px
+    padding-bottom: 90px
+  &__title
+    font-size: 60px
+    font-weight: 700
+    margin-bottom: 28px
+  &__subtitle
+    font-size: 24px
+    margin-bottom: 26px
+  &__btn
+    color: #fff
+    background-color: #000
+    border: 1px solid #000
+    border-radius: 100px
+    padding: 6px 22px 8px
+
+
+.featuredCollection
+  padding-top: 60px
+  text-align: center
+  &__text
+    max-width: 692px
+    margin: 0 auto
+  &__title
+    font-size: 36px
+    font-weight: 700
+  &__description
+    max-width: 650px
+    padding-top: 26.7px
+    font-size: 20px
+    font-weight: 400
+  &__subtitle
+    padding-top: 47px
+    font-size: 20px
+    font-weight: 400
+  &__title-h1
+    padding-top: 87px
+    font-size: 36px
+    font-weight: 700
+.bestsellers
+  padding-top: 51.69px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  margin-bottom: 240px
+
+  &__title
+    font-weight: 700
+    font-size: 17px
+    margin: 0 auto
+    padding-top: 27px
+    max-width: 156px
+  &__price
+    padding-top: 17px
+    font-size: 17px
+  &__cart
+    padding-top: 10px
+    font-weight: 700
+    font-size: 17px
+    text-decoration: underline
+.bestseller
+  max-width: 314.66px
+
+.cart
+  background: #CCCCCC4D
+  &__body
+    padding:  0 50px 0 50px
+  &__inner
+    padding: 75.95px 0 50.92px 0
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+  &__title
+    font-size: 36px
+    font-weight: 700
+    margin-bottom: 40px
+  &__description
+    font-size: 36px
+    max-width: 498px
+    margin-bottom: 31px
+  &__subtitle
+    text-decoration: underline
+    font-size: 17px
+    font-weight: 700
+
+.cart2
+  background: #CCCCCC99
+.uniqueFeatures
+  &__title
+    padding: 189px 0 69px 0
+    margin: 0 auto
+    max-width: 449px
+    font-size: 36px
+    font-weight: 400
+  &__icons
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    text-align: -webkit-center
+  &__icon
+    margin: 0 auto
+    width: 338.66px
+    padding: 60px 0 100px 0
+  &__text
+    padding-top: 26px
+    max-width: 278px
+    font-weight: 700
+    font-size: 30px
+
+.voices
+  &__title
+    font-size: 36px
+    font-weight: 700
+    padding: 73px 0 102px 0
+    text-align: center
+  &__portraits
+    text-align: center
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  &__text
+    padding-top: 35px
+  &__quote
+    margin: 0 auto
+    max-width: 248px
+    font-size: 22px
+    font-weight: 700
+  &__author
+    font-size: 19px
+    padding-top: 40px
+  &__action
+    padding-top: 44px
+    font-size: 21px
+    font-weight: 700
+    text-decoration: underline
+
+.subscribe
+  margin-bottom: 88px
+  text-align: center
+  &__content
+    margin-left: auto !important
+    margin-right: auto !important
+    max-width: 570px
+    padding-top: 108.33px
+    text-align: center
+  &__title
+    font-size: 36px
+    font-weight: 700
+  &__message
+    padding-top: 9px
+    font-size: 17px
+    font-weight: 700
+  &__form
+    margin-left: auto !important
+    margin-right: auto !important
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    max-width: 366px
+    padding-top: 25.5px
+  &__names
+    width: 153px
+  &__email
+    padding-top: 12px
+  &__emailInput
+    width: 366px
+  &__button
+    padding-top: 12px
+  &__btn
+    padding: 6px 22px 8px
+    color: #fff
+    background-color: #000000
+    border: 1px solid #000000
+    border-radius: 100px
+
+.footer
+  &__content
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  padding-top: 51px
+  background: #0b0b0b
+  &__logo
+    align-items: center
+  &__socialmedia
+    padding-top: 37px
+    max-width: 114px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  &__links
+    font-size: 14px
+    font-weight: 400
+    color: #fff
+    display: flex
+    flex-wrap: wrap
+    a
+      color: #fff
+  &__about
+    max-width: 215px
+  &__contact
+    padding-left: 50px
+    max-width: 215px
+  ul
+    padding-top: 24px
+  &__item
+    padding-top: 12px
+  &__copyright
+    text-align: center
+    padding: 50px 0 40px 0
+    color: #fff
+    font-size: 14px
+    font-weight: 400
+@import "media"
